@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAKA,AAAA,WAAW,CAAC;EACR,MAAM,EAAE,KAAK;EACb,gBAAgB,EAJZ,IAAI;CAKX",
+    "sources": [
+        "../scss/what-we-do.scss"
+    ],
+    "names": [],
+    "file": "what-we-do.css"
+}

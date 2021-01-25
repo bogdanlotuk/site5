@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "../scss/daily-watch.scss"
+    ],
+    "names": [],
+    "file": "daily-watch.css"
+}

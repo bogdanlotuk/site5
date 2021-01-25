@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap");
+@import url("header.css");
+@import url("what-we-do.css");
+@import url("how-it-works.css");
+@import url("our-services.css");
+@import url("about-us.css");
+@import url("daily-watch.css");
+@import url("footer.css");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: block;
+  margin: 0 auto;
+  max-width: 1400px;
+  background-color: #F6FAF8;
+  font-family: 'Open Sans', sans-serif;
+  outline: 1px solid red;
+}
+
+.container__wrap {
+  max-width: 1187px;
+  display: block;
+  margin: 0 auto;
+}
+/*# sourceMappingURL=style.css.map */
