@@ -19,20 +19,17 @@ $bgcolor: #F6FAF8;
 
 
 * {
-    margin: 0;
-    padding: 0;
+    box-sizing: border-box;
 }
 
 .container {
-    display: block;
-    margin: 0 auto;
     max-width: 1400px;   
+    margin: 0 auto;
+    padding: 0 15px;
     background-color: $bgcolor;   
-    font-family: 'Open Sans', sans-serif; 
-    outline: 1px solid red;
+    font-family: 'Open Sans', sans-serif;    
     &__wrap {
-        max-width: 1187px;
-        display: block;
+        max-width: 1187px;        
         margin: 0 auto;
     }
 }
