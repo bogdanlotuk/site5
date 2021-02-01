@@ -4,38 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
     <header class="header">
         <div class="container">
-            <div class="header__inner">
-                <div class="header__top">
-                    <div class="header__trial">
-
-                    </div>
-                    <div class="header__logo">
-
-                    </div>
-                    <div class="header__free-trial">
-                        <ul class="free-trial__menu">
-                            <li class="free-trial__item"><a class="free-trial__link" href="#">080-55667788</a></li>
-                            <li class="free-trial__item"><a class="free-trial__link" href="#">try our</a></li>
-                        </ul>
-                        <a class="header__link" href="#" ></a>
-                    </div>
-                    <nav class="header__nav">
-                        <ul class="header__menu">
-                            <li class="menu__item"><a class="menu__link" href="#">services</a></li>
-                            <li class="menu__item"><a class="menu__link" href="#">pricing</a></li>
-                            <li class="menu__item"><a class="menu__link" href="#">contact</a></li>
-                            <li class="menu__item"><a class="menu__link" href="#">about us</a></li>
-                            <li class="menu__item"><a class="menu__link" href="#">blog</a></li>
-                        </ul>
-                    </nav>
+            <div class="header__inner">    
+                <a class="header__logo-link" href="#">
+                    <img class="header__logo" src="/images/header/header__logo.png" alt="logo"></img>
+                </a>
+                <div class="header__free-trial">
+                    <ul class="free-trial__menu">
+                        <li class="free-trial__item"><a class="free-trial__link" href="#">080-55667788</a></li>
+                        <li class="free-trial__item"><a class="free-trial__link" href="#"> | try our</a></li>
+                    </ul>
+                    <a class="header__link" href="#" >free trial</a>
                 </div>
+                <nav class="header__nav">
+                    <ul class="menu">
+                        <li class="menu__item"><a class="menu__link" href="#">about us</a></li>
+                        <li class="menu__item"><a class="menu__link" href="#">services</a></li>
+                        <li class="menu__item"><a class="menu__link" href="#">pricing</a></li>
+                        <li class="menu__item"><a class="menu__link" href="#">contact</a></li>
+                        <li class="menu__item"><a class="menu__link" href="#">blog</a></li>
+                    </ul>
+                </nav>                
                 <div class="header__bottom">
                     <h1 class="bottom__h1">Trading has never been so easy!</h1>
                     <p class="bottom__p">21,000 Happy Customers</p>
@@ -49,40 +44,45 @@
 
     <section class="what-we-do">
         <div class="container">
-            <div class="what-we-do__inner">                    
-                <h2 class="what-we-do__h2">
-                    
-                </h2>             
-                <div class="what-we-do__item">
-                    <img src="" alt="">
-                    <h3 class="what-we-do__h3">
-                        buy/sell calls
-                    </h3>
-                    <p class="what-we-do__text">
-                        Based on our Research by our CMT trained team, we send you BUY/SELL calls, each day
-                    </p>
-                </div>                    
-                <div class="what-we-do__item">
-                    <img src="" alt="">
-                    <h3 class="what-we-do__h3">
-                        make profits & lose less
-                    </h3>
-                    <p class="what-we-do__text">
-                        With our tips backed by research, you make profits & lose less in trading
-                    </p>
-                </div>                    
-                <div class="what-we-do__item">
-                    <img src="" alt="">
-                    <h3 class="what-we-do__h3">
-                        customer referral
-                    </h3>
-                    <p class="what-we-do__text">
-                        Use our Customer Referral programme to Increase your credit points with us
-                    </p>
+            <div class="what-we-do__inner"> 
+                <div class="what-we-do__top">
+                    <h2 class="what-we-do__h2">
+                        What We Do
+                    </h2>  
+                </div>
+                <div class="what-we-do__bottom">           
+                    <div class="what-we-do__item">
+                        <img class="what-we-do__item-img" src="/images/what-we-do/item1.png" alt="item1">
+                        <h3 class="what-we-do__h3">
+                            buy/sell calls
+                        </h3>
+                        <p class="what-we-do__text">
+                            Based on our Research by our CMT trained team, we send you BUY/SELL calls, each day
+                        </p>
+                    </div>                    
+                    <div class="what-we-do__item">
+                        <img class="what-we-do__item-img" src="/images/what-we-do/item2.png" alt="item2">
+                        <h3 class="what-we-do__h3">
+                            make profits & lose less
+                        </h3>
+                        <p class="what-we-do__text">
+                            With our tips backed by research, you make profits & lose less in trading
+                        </p>
+                    </div>                    
+                    <div class="what-we-do__item">
+                        <img class="what-we-do__item-img" src="/images/what-we-do/item3.png" alt="item3">
+                        <h3 class="what-we-do__h3">
+                            customer referral
+                        </h3>
+                        <p class="what-we-do__text">
+                            Use our Customer Referral programme to Increase your credit points with us
+                        </p>
+                    </div>
                 </div>  
             </div>                  
         </div>
     </section>
+
     <section class="how-it-works">
         <div class="container">
             <div class="how-it-works__inner">
@@ -151,11 +151,11 @@
 
     <section class="about-us">
         <div class="container">
-            <div class="about-us__wrap">
+            <div class="about-us__inner">
                 <h2 class="about-us__h2">
                     What people say about us
                 </h2>
-                <div class="about-us__client">
+                <div class="client">
                     <img src="" alt="">
                     <h3 class="client__name">Tim Blanc</h3>
                     <p class="client__work1">CEO-The Hounds Co.</p>
@@ -165,7 +165,7 @@
                         praesentium! Assumenda ex similique reiciendis.
                     </p>
                 </div>
-                <div class="about-us__client">
+                <div class="client">
                     <img src="" alt="">
                     <h3 class="client__name">Jessica</h3>
                     <p class="client__work1">Freelance Blogger | Photographer</p>
@@ -175,7 +175,7 @@
                         praesentium! Assumenda ex similique reiciendis.
                     </p>
                 </div>
-                <div class="about-us__client">
+                <div class="client">
                     <img src="" alt="">
                     <h3 class="client__name">Joe Ray</h3>
                     <p class="client__work1">Software Engineer</p>
@@ -191,31 +191,31 @@
             <div class="daily-watch__wrap">
                 <h2 class="daily-watch__h2"></h2>
                 <div class="daily-watch__post">
-                    <h3 class="post__h3">Blog</h3>
-                    <p class="post__text">Best Thing About Having Financial Freedom <span>Posted on Sep 09,2017</span></p>
-                    <p class="post__text">My Favorite Mobile Trading Offices After 7 Years On the Road <span>Posted on Sep 09,2017</span></p>
-                    <p class="post__text">How To Day Trade (Part 1): Advantages & Disadvantages <span>Posted on Sep 09,2017</span></p>
-                    <p class="post__text">Best Thing About Having Financial Freedom <span>Posted on Sep 09,2017</span></p>
+                    <h3 class="daily-watch__post-h3">Blog</h3>
+                    <p class="daily-watch__post-text">Best Thing About Having Financial Freedom <span>Posted on Sep 09,2017</span></p>
+                    <p class="daily-watch__post-text">My Favorite Mobile Trading Offices After 7 Years On the Road <span>Posted on Sep 09,2017</span></p>
+                    <p class="daily-watch__post-text">How To Day Trade (Part 1): Advantages & Disadvantages <span>Posted on Sep 09,2017</span></p>
+                    <p class="daily-watch__post-text">Best Thing About Having Financial Freedom <span>Posted on Sep 09,2017</span></p>
                 </div>
                 <div class="daily-watch__post">
-                    <h3 class="post__h3">Daily Track Record</h3>
-                    <input type="post__input">
-                    <input type="post__input">
+                    <h3 class="daily-watch__post-h3">Daily Track Record</h3>
+                    <input type="daily-watch__input">
+                    <input type="daily-watch__input">
                     <!-- <details>
                         <summary>Stock cash</summary>
                         <p>Stock cash</p>
                         <p>Stock cash</p>
                         <p>Stock cash</p>
                         <p>Stock cash</p>
-                    </details> -->
-                    <button class="post__btn btn"></button>
+                    </details> -->                    
+                    <a class="daily-watch__post-link" href="#">check</a>
                 </div>
                 <div class="daily-watch__post">
-                    <h3 class="post__h3">Twitter Feed</h3>
-                    <p class="post__text">Best Thing About Having Financial Freedom <span>Posted on Sep 09,2017</span></p>
-                    <p class="post__text">My Favorite Mobile Trading Offices After 7 Years On the Road <span>Posted on Sep 09,2017</span></p>
-                    <p class="post__text">How To Day Trade (Part 1): Advantages & Disadvantages <span>Posted on Sep 09,2017</span></p>
-                    <p class="post__text">Best Thing About Having Financial Freedom <span>Posted on Sep 09,2017</span></p>
+                    <h3 class="daily-watch__post-h3">Twitter Feed</h3>
+                    <p class="daily-watch__post-text">Best Thing About Having Financial Freedom <span>Posted on Sep 09,2017</span></p>
+                    <p class="daily-watch__post-text">My Favorite Mobile Trading Offices After 7 Years On the Road <span>Posted on Sep 09,2017</span></p>
+                    <p class="daily-watch__post-text">How To Day Trade (Part 1): Advantages & Disadvantages <span>Posted on Sep 09,2017</span></p>
+                    <p class="daily-watch__post-text">Best Thing About Having Financial Freedom <span>Posted on Sep 09,2017</span></p>
                 </div>
             </div>
         </div>
@@ -223,57 +223,57 @@
     <footer class="footer">
         <div class="footer__wrap">
             <ul class="footer__about-us">
-                <li><a href="">about us</a>
+                <li class="footer__item"><a href="">about us</a>
                     <ul class="footer__about-us-sublist">
-                        <li><a href="">Why Us</a></li>
-                        <li><a href="">History</a></li>
-                        <li><a href="">Research Team</a></li>
-                        <li><a href="">FAQs</a></li>
+                        <li class="footer__item"><a class="footer__link" href="#">Why Us</a></li>
+                        <li class="footer__item"><a class="footer__link" href="#">History</a></li>
+                        <li class="footer__item"><a class="footer__link" href="#">Research Team</a></li>
+                        <li class="footer__item"><a class="footer__link" href="#">FAQs</a></li>
                     </ul>
                 </li>
-                <li><a href="">payment</a></li>
-                <li><a href="">blog</a></li>
-                <li><a href="">support</a></li>
-                <li><a href="">refund policy</a></li>
-                <li><a href="">corporate policies</a></li>
-                <li><a href="">career</a></li>
-                <li><a href="">download broucher</a></li>
+                <li class="footer__item"><a  class="footer__link" href="#">payment</a></li>
+                <li class="footer__item"><a  class="footer__link" href="#">blog</a></li>
+                <li class="footer__item"><a  class="footer__link" href="#">support</a></li>
+                <li class="footer__item"><a  class="footer__link" href="#">refund policy</a></li>
+                <li class="footer__item"><a  class="footer__link" href="#">corporate policies</a></li>
+                <li class="footer__item"><a  class="footer__link" href="#">career</a></li>
+                <li class="footer__item"><a  class="footer__link" href="#">download broucher</a></li>
             </ul>
             <ul class="footer__services">
-                <li><a href="">services</a>
-                <ul>
-                    <li><a href="">Stock Futures</a></li>
-                    <li><a href="">Nifty Futures</a></li>
-                    <li><a href="">Options</a></li>
-                    <li><a href="">Bullion Commodities</a></li>
-                    <li><a href="">Gold / Silver</a></li>
-                    <li><a href="">Base Metals</a></li>
-                    <li><a href="">BTST / STBT Pack</a></li>
-                    <li><a href="">Stock Cash Premier</a></li>
-                    <li><a href="">Nifty Premier</a></li>
-                    <li><a href="">Bullion Commodity</a></li>
-                    <li><a href="">Premier</a></li>
-                    <li><a href="">HNI Consult</a></li>
-                    <li><a href="">Commodity Delivery</a></li>
-                    <li><a href="">SGX Intraday</a></li>
-                    <li><a href="">SGX Intraday-</a></li>
-                    <li><a href="">Positional</a></li>
-                    <li><a href="">Malaysian Shares-</a></li>
-                    <li><a href="">Intraday</a></li>
-                    <li><a href="">Forex Spot Intraday</a></li>
-                    <li><a href="">Pack</a></li>
-                    <li><a href="">Nifty F & O Pack</a></li>
-                    <li><a href="">Stock Cash</a></li>
+                <li class="footer__item"><a href="#">services</a>
+                <ul class="footer__services-sublist">
+                    <li class="footer__item"><a href="#">Stock Futures</a></li>
+                    <li class="footer__item"><a href="#">Nifty Futures</a></li>
+                    <li class="footer__item"><a href="#">Options</a></li>
+                    <li class="footer__item"><a href="#">Bullion Commodities</a></li>
+                    <li class="footer__item"><a href="#">Gold / Silver</a></li>
+                    <li class="footer__item"><a href="#">Base Metals</a></li>
+                    <li class="footer__item"><a href="#">BTST / STBT Pack</a></li>
+                    <li class="footer__item"><a href="#">Stock Cash Premier</a></li>
+                    <li class="footer__item"><a href="#">Nifty Premier</a></li>
+                    <li class="footer__item"><a href="#">Bullion Commodity</a></li>
+                    <li class="footer__item"><a href="#">Premier</a></li>
+                    <li class="footer__item"><a href="#">HNI Consult</a></li>
+                    <li class="footer__item"><a href="#">Commodity Delivery</a></li>
+                    <li class="footer__item"><a href="#">SGX Intraday</a></li>
+                    <li class="footer__item"><a href="#">SGX Intraday-</a></li>
+                    <li class="footer__item"><a href="#">Positional</a></li>
+                    <li class="footer__item"><a href="#">Malaysian Shares-</a></li>
+                    <li class="footer__item"><a href="#">Intraday</a></li>
+                    <li class="footer__item"><a href="#">Forex Spot Intraday</a></li>
+                    <li class="footer__item"><a href="#">Pack</a></li>
+                    <li class="footer__item"><a href="#">Nifty F & O Pack</a></li>
+                    <li class="footer__item"><a href="#">Stock Cash</a></li>
                 </ul>
                 </li>
             </ul>
             <ul class="footer__support">
-                <li><a href="">support</a>
-                <ul>
-                    <li><a href="">Open A Ticket</a></li>
-                    <li><a href="">Track Progress</a></li>
-                    <li><a href="">Help 7 Support</a></li>                            
-                </ul>
+                <li class="footer__item"><a href="">support</a>
+                    <ul class="footer__support-sublist">
+                        <li class="footer__item"><a href="#">Open A Ticket</a></li>
+                        <li class="footer__item"><a href="#">Track Progress</a></li>
+                        <li class="footer__item"><a href="#">Help 7 Support</a></li>                            
+                    </ul>
                 </li>
             </ul>
             <div class="footer__follow-us">
@@ -296,9 +296,9 @@
                 </iframe>
             </div>
             <ul class="footer__bottom">
-                <li><a href="#">Privacy Policy</a></li>
-                <li><a href="#">2017</a></li>
-                <li><a href="#">All Rights Reserved</a></li>
+                <li class="footer__bottom-list"><a class="footer__bottom-link" href="#">Privacy Policy</a></li>
+                <li class="footer__bottom-list"><a class="footer__bottom-link" href="#">2017</a></li>
+                <li class="footer__bottom-list"><a class="footer__bottom-link" href="#">All Rights Reserved</a></li>
             </ul>
         </div>
     </footer>

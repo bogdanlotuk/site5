@@ -6,7 +6,19 @@ $bgcolor: #F6FAF8;
 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
 
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
 
+.container {
+    max-width: 1187px;   
+    margin: 0 auto;
+    // padding: 0 15px;
+    background-color: $bgcolor;   
+    font-family: 'Open Sans', sans-serif;  
+}
 
 @import url("header.css");
 @import url("what-we-do.css");
@@ -18,18 +30,3 @@ $bgcolor: #F6FAF8;
 
 
 
-* {
-    box-sizing: border-box;
-}
-
-.container {
-    max-width: 1400px;   
-    margin: 0 auto;
-    padding: 0 15px;
-    background-color: $bgcolor;   
-    font-family: 'Open Sans', sans-serif;    
-    &__wrap {
-        max-width: 1187px;        
-        margin: 0 auto;
-    }
-}

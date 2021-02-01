@@ -1,5 +1,70 @@
-.what-we-do {
+.what-we-do .container {
+  outline: 1px solid red;
+  max-width: 1187px;
   height: 575px;
   background-color: #fff;
+}
+
+.what-we-do__inner {
+  max-width: 1035px;
+  height: 100%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-rows: 215px 1fr;
+}
+
+.what-we-do__top {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  margin-bottom: 40px;
+}
+
+.what-we-do__h2 {
+  font-size: 32px;
+  line-height: 26px;
+  font-weight: 700;
+  color: #4EAB76;
+}
+
+.what-we-do__bottom {
+  display: flex;
+  justify-content: space-between;
+}
+
+.what-we-do__item {
+  width: 236px;
+  margin-top: 20px;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.what-we-do__item-img {
+  width: 85px;
+  height: 85px;
+  overflow: hidden;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 35px;
+}
+
+.what-we-do__h3 {
+  font-size: 18px;
+  line-height: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #4EAB76;
+  text-align: center;
+  margin-bottom: 22px;
+}
+
+.what-we-do__text {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+  color: #4EAB76;
+  text-align: center;
 }
 /*# sourceMappingURL=what-we-do.css.map */

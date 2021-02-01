@@ -1,5 +1,125 @@
-.header {
-  height: 588px;
+.header .container {
   outline: 1px solid red;
+  max-width: 1187px;
+  height: 588px;
+  background-image: url(../images/header/header-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.header__inner {
+  max-width: 1050px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 520px 1fr;
+  grid-template-rows: 67px 62px 459px;
+}
+
+.header__logo-link {
+  grid-row: 2 / 3;
+  grid-column: 1 / 2;
+  display: grid;
+  margin: 0 0 0 10px;
+}
+
+.header__free-trial {
+  grid-row: 1 / 2;
+  grid-column: 2 / 3;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.header__free-trial .free-trial__menu {
+  margin-bottom: 10px;
+}
+
+.header__free-trial .free-trial__item {
+  display: inline-block;
+}
+
+.header__free-trial .free-trial__link {
+  font-size: 12px;
+  line-height: 26px;
+  font-weight: 400;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #fff;
+}
+
+.header__link {
+  width: 96px;
+  height: 35px;
+  background-image: linear-gradient(90deg, #ea461e 0%, #f06f18 100%);
+  border-radius: 17.5px;
+  color: #fff;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  font-size: 12px;
+  line-height: 26px;
+  font-weight: 400;
+  margin: 0 16px 6px 18px;
+}
+
+.header__nav {
+  grid-row: 2 / 3;
+  grid-column: 2 / 3;
+  display: grid;
+  margin: auto;
+  width: 100%;
+}
+
+.header__nav .menu {
+  display: flex;
+  justify-content: flex-start;
+  list-style-type: none;
+}
+
+.header__nav .menu__item {
+  margin-right: 40px;
+}
+
+.header__nav .menu__item:first-child {
+  margin-left: 25px;
+}
+
+.header__nav .menu__link {
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
+  color: #fff;
+  font-size: 15px;
+  line-height: 26px;
+  font-weight: 400;
+}
+
+.header__bottom {
+  grid-row: 3 / 4;
+  grid-column: 1 / 2;
+}
+
+.header__bottom .bottom__h1 {
+  font-size: 48px;
+  line-height: 64px;
+  font-weight: 700;
+  color: #fff;
+  text-align: center;
+  padding-top: 125px;
+  margin-bottom: 10px;
+}
+
+.header__bottom .bottom__p {
+  font-size: 20px;
+  line-height: 1.2;
+  font-weight: 400;
+  color: #fff;
+  text-align: center;
+}
+
+.header__sign-up {
+  display: none;
 }
 /*# sourceMappingURL=header.css.map */

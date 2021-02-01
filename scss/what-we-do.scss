@@ -4,6 +4,68 @@ $grey: #627D81;
 $white: #fff;
 
 .what-we-do {
-    height: 575px;
-    background-color: $white;
+    .container {
+        outline: 1px solid red;
+        max-width: 1187px;
+        height: 575px;
+        background-color: $white;        
+    }
+    &__inner {
+        max-width: 1035px;
+        height: 100%;
+        margin: 0 auto;      
+        display: grid;
+        grid-template-rows: 215px 1fr;        
+    }
+    &__top {
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        margin-bottom: 40px;
+    }    
+    &__h2 {        
+        font-size: 32px;
+        line-height: 26px;
+        font-weight: 700;
+        color: $green;
+    }
+
+    &__bottom {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__item {
+        width: 236px;
+        margin-top: 20px;
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+        justify-content: flex-start;        
+    }
+    &__item-img {
+        width: 85px;
+        height: 85px;
+        overflow: hidden;
+        border-radius: 50%;
+        object-fit: cover;
+        margin-bottom: 35px;
+    }
+
+    &__h3 {
+        font-size: 18px;
+        line-height: 20px;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: $green;
+        text-align: center;
+        margin-bottom: 22px;
+    }
+    &__text {
+        font-size: 14px;
+        line-height: 20px;
+        font-weight: 400;
+        color: $green;
+        text-align: center;
+    }
 }
+
