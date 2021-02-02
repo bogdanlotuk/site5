@@ -1,5 +1,6 @@
 $bg-color: #F6FAF8;
 $green: #4EAB76;
+$orange: #F45A1A;
 
 .about-us {
     .container {
@@ -31,11 +32,13 @@ $green: #4EAB76;
         grid-template-columns: 385px 385px 385px;
         column-gap: 15px;
         .client {
+            height: 411px;
+            background-color: #fff;
             display: flex;
             flex-flow: column;
             align-items:center;
             justify-content: flex-start;
-            box-shadow: 0px 0px 25px 0px rgba(0,0,0,0.1);
+            border-bottom: 5px solid $orange;
             border-bottom-right-radius: 3px;
             border-bottom-left-radius: 3px;
             &__img{

@@ -33,11 +33,13 @@
 }
 
 .about-us__bottom .client {
+  height: 411px;
+  background-color: #fff;
   display: flex;
   flex-flow: column;
   align-items: center;
   justify-content: flex-start;
-  box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.1);
+  border-bottom: 5px solid #F45A1A;
   border-bottom-right-radius: 3px;
   border-bottom-left-radius: 3px;
 }
